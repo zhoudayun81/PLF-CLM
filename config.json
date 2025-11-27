@@ -1,0 +1,30 @@
+{
+    "data": {
+        "real_dir": "real_logs",
+        "pred_dir": "pred",
+        "model_dir": "pt",
+        "eval_dir": "eval",
+        "split_ratios": [0.8, 0.1, 0.1],
+        "window_size": 20,
+        "pred_horizon": 20
+    },
+    "model": {
+        "types": ["encoder_only", "decoder_only", "enc_dec"],
+        "hidden_dim": [32, 64, 128, 256, 512],
+        "lr": [1e-5, 1e-3],
+        "num_layers": [2, 6],
+        "batch_size": [1, 2, 4, 8],
+        "max_pos": 4096,
+        "save": true,
+        "pad_token": "<PAD>",
+        "unk_token": "<UNK>",
+        "bos_token": "<BOS>",
+        "eos_token": "<EOS>"
+    },
+    "training": {
+        "optuna_trials": 20,
+        "epochs": [10, 200],
+        "early_stop_patience": 5,
+        "seed": 42
+    }
+}

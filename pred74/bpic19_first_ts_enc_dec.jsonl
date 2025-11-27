@@ -1,0 +1,2 @@
+["Vendor creates invoice", "Record Invoice Receipt"]
+["Receive Order Confirmation", "Record Goods Receipt", "Vendor creates invoice", "Record Invoice Receipt", "Clear Invoice"]

@@ -1,0 +1,8 @@
+["Create Purchase Order Item", "Record Goods Receipt", "Vendor creates invoice", "Record Invoice Receipt", "Clear Invoice"]
+["Vendor creates invoice", "Record Invoice Receipt", "Clear Invoice"]
+["Create Purchase Order Item", "Record Goods Receipt"]
+["Vendor creates invoice", "Record Goods Receipt", "Record Invoice Receipt", "Clear Invoice"]
+["Change Quantity", "Vendor creates invoice", "Record Goods Receipt", "Record Invoice Receipt", "Clear Invoice"]
+["Record Invoice Receipt", "Clear Invoice"]
+["Create Purchase Order Item", "Receive Order Confirmation", "Vendor creates invoice", "Record Goods Receipt", "Record Invoice Receipt", "Clear Invoice"]
+["Clear Invoice"]

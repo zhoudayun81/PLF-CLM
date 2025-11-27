@@ -1,0 +1,4 @@
+["ER Sepsis Triage", "LacticAcid", "Leucocytes", "CRP", "Leucocytes", "CRP", "Leucocytes", "LacticAcid", "Leucocytes", "Admission NC", "Admission NC", "Release A"]
+["Leucocytes", "CRP", "LacticAcid", "Leucocytes", "CRP", "Leucocytes", "CRP", "Leucocytes", "Admission NC", "CRP", "Leucocytes", "CRP", "Release A"]
+["Leucocytes", "Leucocytes", "LacticAcid", "Leucocytes", "CRP", "Leucocytes", "LacticAcid", "CRP", "IV Liquid", "Leucocytes", "Release A", "Return ER"]
+["ER Registration", "ER Triage", "ER Sepsis Triage", "IV Antibiotics", "Admission NC", "IV Liquid", "LacticAcid", "IV Liquid", "IV Antibiotics"]
