@@ -22,8 +22,18 @@ You can modify the settings to different parameters for other experiment, and we
 
 If you want to run cross-validation (multiple folds), you need to modify the split ratio ```"split_ratios": [0.8, 0.1, 0.1],``` in the config file to the desired portion, and also save the prediction outputs and evaluations to different folders to avoid previous results being rewritten.
 
+## Measurements
+You can find our experiment prediction outputs in the ```predXX``` folders (https://github.com/zhoudayun81/PLF-CLM/tree/main/pred72, https://github.com/zhoudayun81/PLF-CLM/tree/main/pred74, https://github.com/zhoudayun81/PLF-CLM/tree/main/pred76, https://github.com/zhoudayun81/PLF-CLM/tree/main/pred78, https://github.com/zhoudayun81/PLF-CLM/tree/main/pred80).
+To run the measurements we implemented on the predictions, simply run command:
+<pre>
+  <code id="install-command">python3 measure.py</code>
+</pre>
+<button onclick="copyToClipboard('#install-command')"></button>
+The evaluation results will be saved in the corresponding ```evaXX``` folders.
+
 ## Accessing results
-You can find our experiment prediction outputs in the [output folder](https://github.com/zhoudayun81/PLF-CLM/tree/main/pred) and we summarize the results in excels in the [result folder](https://github.com/zhoudayun81/PLF-CLM/tree/main/download/result).
+We summarize the results in excels in the [evaluation_aggregated.xlsx](https://github.com/zhoudayun81/PLF-CLM/tree/main/evaluation_aggregated.xlsx).
+You can also perform your own analysis based on the aggregated results or the evaluations.
 For interpretations to the results, please refer to our paper.
 <hr />
 
